@@ -201,5 +201,3 @@ function formatPage() {
     var imgElement = document.getElementById("img");
     imgElement.setAttribute("href", option["img"]);
 }
-
-document.onload = formatPage
