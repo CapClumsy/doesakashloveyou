@@ -6,3 +6,7 @@ body {
     transform: translate();
     font-family: Veranda, Arial, sans-serif;
 }
+
+img {
+    border-radius: 50px;
+}
