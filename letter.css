@@ -19,11 +19,11 @@ p {
     font-family: "Brush Script MT", "Brush Script Std", cursive;
     text-align: right;
     position: relative;
-    right: 20%;
+    right: 30%;
 }
 
 #name {
-    right: 10%;
+    right: 5%;
 }
 
 #main-prompt {
