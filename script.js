@@ -194,8 +194,8 @@ if (hours <= 5 || hours >= 23) {
     }
 }
 
-const sentenceElement = document.getElementById("sentence");
+var sentenceElement = document.getElementById("sentence");
 sentenceElement.innerText = option["sentence"];
 
-const imgElement = document.getElementById("img");
+var imgElement = document.getElementById("img");
 imgElement.setAttribute("href", option["img"]);
