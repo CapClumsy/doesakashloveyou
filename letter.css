@@ -15,15 +15,11 @@ p {
     text-indent: 30px;
 }
 
-.signature {
+#signature {
     font-family: "Brush Script MT", "Brush Script Std", cursive;
     text-align: right;
     position: relative;
     right: 30%;
-}
-
-#name {
-    right: 5%;
 }
 
 #main-prompt {
