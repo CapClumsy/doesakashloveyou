@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(245, 76, 104);
+    font-family: Veranda, Arial, sans-serif;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.signature {
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    text-align: right;
+    position: relative;
+    right: 20%;
+}
+
+#name {
+    right: 10%;
+}
+
+#main-prompt {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
