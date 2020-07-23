@@ -197,9 +197,7 @@ function formatPage() {
 
     var sentenceElement = document.getElementById("sentence");
     sentenceElement.innerText = option["sentence"];
-    console.log(option["sentence"])
 
     var imgElement = document.getElementById("img");
     imgElement.setAttribute("href", option["img"]);
-    console.log(option["img"])
 }
