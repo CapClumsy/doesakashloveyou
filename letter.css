@@ -22,7 +22,7 @@ p {
     right: 30%;
 }
 
-#main-prompt {
+.prompt {
     position: fixed;
     bottom: 0;
     right: 0;
