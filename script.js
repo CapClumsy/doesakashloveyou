@@ -48,7 +48,7 @@ function formatPage() {
                         }
                     ];
                     var option = schoolMorningOptions[Math.floor(Math.random() * schoolMorningOptions.length)];
-                } else if (hours > 8 && hours <= 15) {
+                } else if (hours > 8 && hours < 15) {
                 //schoolday
                     let schooldayOptions = [
                         {
@@ -65,7 +65,7 @@ function formatPage() {
                         }
                     ];
                     var option = schooldayOptions[Math.floor(Math.random() * schooldayOptions.length)];
-                } else if (hours > 15 && hours < 23) {
+                } else if (hours >= 15 && hours < 23) {
                 //afterschool
                     let afterschoolOptions = [
                         {
@@ -86,7 +86,7 @@ function formatPage() {
             } else {
             //weekend
                 //morning
-                if (hours > 5 && hours <= 11) {
+                if (hours > 5 && hours < 11) {
                     let weekendMorningOptions = [
                         {
                             "sentence": "Akash is hoping that you've slept in a lot to make up for the sleep you deserve that the school has taken away from you...",
@@ -102,7 +102,7 @@ function formatPage() {
                         }
                     ];
                     var option = weekendMorningOptions[Math.floor(Math.random() * weekendMorningOptions.length)];
-                } else if (hours > 11 && hours <= 18) {
+                } else if (hours >= 11 && hours < 18) {
                 //day
                     let weekendDayOptions = [
                         {
@@ -119,7 +119,7 @@ function formatPage() {
                         }
                     ];
                     var option = weekendDayOptions[Math.floor(Math.random() * weekendDayOptions.length)];
-                } else if (hours > 18 && hours < 23) {
+                } else if (hours >= 18 && hours < 23) {
                 //evening/night
                     let weekendEveOptions = [
                         {
@@ -141,7 +141,7 @@ function formatPage() {
         } else {
         //summer
             //morning
-            if (hours > 5 && hours <= 11) {
+            if (hours > 5 && hours < 11) {
                 let summerMorningOptions = [
                     {
                         "sentence": "Akash is thinking about how your hair would look after you got out of bed... he bets it's really cute...",
@@ -157,7 +157,7 @@ function formatPage() {
                     }
                 ];
                 var option = summerMorningOptions[Math.floor(Math.random() * summerMorningOptions.length)];
-            } else if (hours > 11 && hours <= 18) {
+            } else if (hours >= 11 && hours < 18) {
             //day
                 let summerDayOptions = [
                     {
@@ -174,7 +174,7 @@ function formatPage() {
                     }
                 ];
                 var option = summerDayOptions[Math.floor(Math.random() * summerDayOptions.length)];
-            } else if (hours > 18 && hours < 23) {
+            } else if (hours >= 18 && hours < 23) {
             //evening/night
                 let summerEveOptions = [
                     {
