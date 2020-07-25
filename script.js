@@ -10,19 +10,19 @@ function formatPage() {
         let nightOptions = [
             {
                 "sentence": "Akash is happily sleeping because he's dreaming about you...",
-                "img": "night.dream.jpg"
+                "img": "pictures/night/dream.jpg"
             },
             {
                 "sentence": "Akash is awake thinking about how wonderful you were today...",
-                "img": "night.reflection.jpg"
+                "img": "pictures/night/reflection.jpg"
             },
             {
                 "sentence": "Akash wants to cuddle you to sleep if you're having trouble...",
-                "img": "night.cuddle.jpg"
+                "img": "pictures/night/cuddle.jpg"
             },
             {
                 "sentence": "Akash is hoping you can get back to sleep and sleep well for the rest of the night...",
-                "img": "night.sleep.jpg"
+                "img": "pictures/night/sleep.jpg"
             }
         ];
         var option = nightOptions[Math.floor(Math.random() * nightOptions.length)];
@@ -36,15 +36,15 @@ function formatPage() {
                     let schoolMorningOptions = [
                         {
                             "sentence": "Akash is hoping that you've slept soooooo well...",
-                            "img": "school.week.morning.sleep.jpg"
+                            "img": "pictures/school/week/morning/sleep.jpg"
                         },
                         {
                             "sentence": "Akash can't wait to get to school and see you before it starts...",
-                            "img": "school.week.morning.school.jpg"
+                            "img": "pictures/school/week/morning/school.jpg"
                         },
                         {
                             "sentence": "Akash hopes that you're having a great morning, eating a breakfast that you like, and getting ready for a great day at school...",
-                            "img": "school.week.morning.preparing.jpg"
+                            "img": "pictures/school/week/morning/preparing.jpg"
                         }
                     ];
                     var option = schoolMorningOptions[Math.floor(Math.random() * schoolMorningOptions.length)];
@@ -53,15 +53,15 @@ function formatPage() {
                     let schooldayOptions = [
                         {
                             "sentence": "Akash hopes that you're having a great time in your class...",
-                            "img": "school.week.day.class.jpg"
+                            "img": "pictures/school/week/day/class.jpg"
                         },
                         {
                             "sentence": "Akash can't wait to see you at lunch or after school...",
-                            "img": "school.week.day.see.jpg"
+                            "img": "pictures/school/week/day/see.jpg"
                         },
                         {
                             "sentence": "Akash is thinking and daydreaming about you in his class...",
-                            "img": "school.week.day.daydream.jpg"
+                            "img": "pictures/school/week/day/daydream.jpg"
                         }
                     ];
                     var option = schooldayOptions[Math.floor(Math.random() * schooldayOptions.length)];
@@ -70,15 +70,15 @@ function formatPage() {
                     let afterschoolOptions = [
                         {
                             "sentence": "Akash is hoping that you've just had such a nice day at school...",
-                            "img": "school.week.afternoon.day.jpg"
+                            "img": "pictures/school/week/afternoon/day.jpg"
                         },
                         {
                             "sentence": "Akash is hoping that you're finding this afternoon relaxing after being at school...",
-                            "img": "school.week.afternoon.afternoon.jpg"
+                            "img": "pictures/school/week/afternoon/afternoon.jpg"
                         },
                         {
                             "sentence": "Akash is thinking about how much you've helped him throughout the day and how wonderful you've been to him...",
-                            "img": "school.week.afternoon.thinking.jpg"
+                            "img": "pictures/school/week/afternoon/thinking.jpg"
                         }
                     ];
                     var option = afterschoolOptions[Math.floor(Math.random() * afterschoolOptions.length)];
@@ -90,15 +90,15 @@ function formatPage() {
                     let weekendMorningOptions = [
                         {
                             "sentence": "Akash is hoping that you've slept in a lot to make up for the sleep you deserve that the school has taken away from you...",
-                            "img": "school.weekend.morning.sleep.jpg"
+                            "img": "pictures/school/weekend/morning/sleep.jpg"
                         },
                         {
                             "sentence": "Akash is hoping that your day is going to be wonderful...",
-                            "img": "school.weekend.morning.day.jpg"
+                            "img": "pictures/school/weekend/morning/day.jpg"
                         },
                         {
                             "sentence": "Akash is wishing he could wake up next to you every day...",
-                            "img": "school.weekend.morning.next.jpg"
+                            "img": "pictures/school/weekend/morning/next.jpg"
                         }
                     ];
                     var option = weekendMorningOptions[Math.floor(Math.random() * weekendMorningOptions.length)];
@@ -107,15 +107,15 @@ function formatPage() {
                     let weekendDayOptions = [
                         {
                             "sentence": "Akash is hoping that you are enjoying your free time...",
-                            "img": "school.weekend.day.free.jpg"
+                            "img": "pictures/school/weekend/day/free.jpg"
                         },
                         {
                             "sentence": "Akash is wondering what you're doing right now... maybe making some awesome music?",
-                            "img": "school.weekend.day.music.jpg"
+                            "img": "pictures/school/weekend/day/music.jpg"
                         },
                         {
                             "sentence": "Akash is thinking about how he can't wait to see you again and cuddle you and love you...",
-                            "img": "school.weekend.day.cuddle.jpg"
+                            "img": "pictures/school/weekend/day/cuddle.jpg"
                         }
                     ];
                     var option = weekendDayOptions[Math.floor(Math.random() * weekendDayOptions.length)];
@@ -124,15 +124,15 @@ function formatPage() {
                     let weekendEveOptions = [
                         {
                             "sentence": "Akash is hoping that you've had a nice weekend day and that you've done all that you've wanted to do...",
-                            "img": "school.weekend.night.done.jpg"
+                            "img": "pictures/school/weekend/night/done.jpg"
                         },
                         {
                             "sentence": "Akash is hoping that you've had such a nice day...",
-                            "img": "school.weekend.night.day.jpg"
+                            "img": "pictures/school/weekend/night/day.jpg"
                         },
                         {
                             "sentence": "Akash thinks that having you with him tonight would be an amazing end to a nice weekend day with you...",
-                            "img": "school.weekend.night.with.jpg"
+                            "img": "pictures/school/weekend/night/with.jpg"
                         }
                     ];
                     var option = weekendEveOptions[Math.floor(Math.random() * weekendEveOptions.length)];
@@ -145,15 +145,15 @@ function formatPage() {
                 let summerMorningOptions = [
                     {
                         "sentence": "Akash is thinking about how your hair would look after you got out of bed... he bets it's really cute...",
-                        "img": "summer.morning.hair.jpg"
+                        "img": "pictures/summer/morning/hair.jpg"
                     },
                     {
                         "sentence": "Akash is hoping that you're having a nice morning...",
-                        "img": "summer.morning.nice.jpg"
+                        "img": "pictures/summer/morning/nice.jpg"
                     },
                     {
                         "sentence": "Akash is hoping that you're getting ready for a great day at camp or a great day at home...",
-                        "img": "summer.morning.ready.jpg"
+                        "img": "pictures/summer/morning/ready.jpg"
                     }
                 ];
                 var option = summerMorningOptions[Math.floor(Math.random() * summerMorningOptions.length)];
@@ -162,15 +162,15 @@ function formatPage() {
                 let summerDayOptions = [
                     {
                         "sentence": "Akash is hoping that you are out enjoying your favorite season...",
-                        "img": "summer.day.out.jpg"
+                        "img": "pictures/summer/day/out.jpg"
                     },
                     {
                         "sentence": "Akash is hoping that the warm weather will keep your hands nice and warm and not freezing to death...",
-                        "img": "summer.day.hands.jpg"
+                        "img": "pictures/summer/day/hands.jpg"
                     },
                     {
                         "sentence": "Akash is hoping that you're having a great time with your friends at camp or enjoying your free time at home...",
-                        "img": "summer.day.camp.jpg"
+                        "img": "pictures/summer/day/camp.jpg"
                     }
                 ];
                 var option = summerDayOptions[Math.floor(Math.random() * summerDayOptions.length)];
@@ -179,15 +179,15 @@ function formatPage() {
                 let summerEveOptions = [
                     {
                         "sentence": "Akash is wishing that he could be at the lake watching the sunset with you...",
-                        "img": "summer.night.lake.jpg"
+                        "img": "pictures/summer/night/lake.jpg"
                     },
                     {
                         "sentence": "Akash is thinking about how you're the best...",
-                        "img": "summer.night.best.jpg"
+                        "img": "pictures/summer/night/best.jpg"
                     },
                     {
                         "sentence": "Akash is wishing that he could spend these summer nights next to you in a hammock...",
-                        "img": "summer.night.hammock.jpg"
+                        "img": "pictures/summer/night/hammock.jpg"
                     }
                 ];
                 var option = summerEveOptions[Math.floor(Math.random() * summerEveOptions.length)];
