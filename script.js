@@ -199,5 +199,5 @@ function formatPage() {
     sentenceElement.innerText = option["sentence"];
 
     var imgElement = document.getElementById("img");
-    imgElement.setAttribute("href", option["img"]);
+    imgElement.setAttribute("src", option["img"]);
 }
