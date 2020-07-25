@@ -69,7 +69,7 @@ function formatPage() {
                 //afterschool
                     let afterschoolOptions = [
                         {
-                            "sentence": "Akash is hoping that you've just had such a nice day at school...",
+                            "sentence": "Akash wants to relax with you after a day at school...",
                             "img": "pictures/school/week/afternoon/day.jpg"
                         },
                         {
@@ -165,7 +165,7 @@ function formatPage() {
                         "img": "pictures/summer/day/out.jpg"
                     },
                     {
-                        "sentence": "Akash is hoping that the warm weather will keep your hands nice and warm and not freezing to death...",
+                        "sentence": "Akash is hoping that the warm weather will keep your hands nice and warm, but he'd love to hold them regardless...",
                         "img": "pictures/summer/day/hands.jpg"
                     },
                     {
