@@ -171,6 +171,10 @@ function formatPage() {
                     {
                         "sentence": "Akash is hoping that you're having a great time with your friends at camp or enjoying your free time at home...",
                         "img": "pictures/summer/day/camp.jpg"
+                    },
+                    {
+                        "sentence": "Akash wants to go get some ice cream and have a nice date with you...",
+                        "img": "pictures/summer/day/icecream.jpg"
                     }
                 ];
                 var option = summerDayOptions[Math.floor(Math.random() * summerDayOptions.length)];
