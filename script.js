@@ -6,7 +6,7 @@ function formatPage() {
     var weekday = today.getDay();
 
     //night
-    if (hours <= 5 || hours >= 23) {
+    if (hours < 5 || hours >= 23) {
         let nightOptions = [
             {
                 "sentence": "Akash is happily sleeping because he's dreaming about you...",
@@ -28,11 +28,11 @@ function formatPage() {
         var option = nightOptions[Math.floor(Math.random() * nightOptions.length)];
     } else {
         //school
-        if (month >= 10 || month <= 5) {
+        if (month >= 8 || month <= 5) {
             //weekday
             if (weekday >= 1 && weekday <= 5) {
                 //school morning
-                if (hours > 5 && hours <= 8) {
+                if (hours >= 5 && hours < 8) {
                     let schoolMorningOptions = [
                         {
                             "sentence": "Akash is hoping that you've slept soooooo well...",
@@ -48,7 +48,7 @@ function formatPage() {
                         }
                     ];
                     var option = schoolMorningOptions[Math.floor(Math.random() * schoolMorningOptions.length)];
-                } else if (hours > 8 && hours < 15) {
+                } else if (hours >= 8 && hours < 15) {
                 //schoolday
                     let schooldayOptions = [
                         {
@@ -141,7 +141,7 @@ function formatPage() {
         } else {
         //summer
             //morning
-            if (hours > 5 && hours < 11) {
+            if (hours >= 5 && hours < 11) {
                 let summerMorningOptions = [
                     {
                         "sentence": "Akash is thinking about how your hair would look after you got out of bed... he bets it's really cute...",
