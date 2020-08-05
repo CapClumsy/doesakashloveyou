@@ -4,6 +4,7 @@ function formatPage() {
     var month = today.getMonth();
     var hours = today.getHours();
     var weekday = today.getDay();
+    var monthDay = today.getDate();
 
     //night
     if (hours < 5 || hours >= 23) {
@@ -26,6 +27,35 @@ function formatPage() {
             }
         ];
         var option = nightOptions[Math.floor(Math.random() * nightOptions.length)];
+    //birthday
+    } else if (month == 7 && monthDay == 19) {
+        let birthdayOptions = [
+            {
+                "sentence": "Akash wishes you a happy happy birthday...",
+                "img": "pictures/birthday/happy.jpg"
+            },
+            {
+                "sentence": "Akash wants to celebrate your birthday with you...",
+                "img": "pictures/birthday/with.jpg"
+            }
+        ];
+        var option = birthdayOptions[Math.floor(Math.random() * birthdayOptions.length)];
+    } else if (month == 7 && monthDay == 22) {
+        let anniversaryOptions = [
+            {
+                "sentence": "Akash is hopefully celebrating our anniversary with you...",
+                "img": "pictures/anniversary/with.jpg"
+            },
+            {
+                "sentence": "Akash is thinking about how wonderful you've been to him the past year you've been dating him...",
+                "img": "pictures/anniversary/year.jpg"
+            },
+            {
+                "sentence": "Akash is hoping he can give you a great anniversary...",
+                "img": "pictures/anniversary/give.jpg"
+            }
+        ]
+        var option = anniversaryOptions[Math.floor(Math.random() * anniversaryOptions.length)];
     } else {
         //school
         if (month >= 8 || month <= 5) {
