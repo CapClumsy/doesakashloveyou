@@ -40,6 +40,7 @@ function formatPage() {
             }
         ];
         var option = birthdayOptions[Math.floor(Math.random() * birthdayOptions.length)];
+    //anniversary
     } else if (month == 7 && monthDay == 22) {
         let anniversaryOptions = [
             {
